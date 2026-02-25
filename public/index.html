@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HR Prasith — AI/ML Engineer</title>
+    <meta name="description" content="HR Prasith — B.Tech AI & ML Student, building intelligent systems that matter." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { background: #02040a; overflow-x: hidden; cursor: none; }
+      #root { min-height: 100vh; }
+      /* Custom cursor */
+      .cursor {
+        width: 12px; height: 12px;
+        background: #7ee8fa;
+        border-radius: 50%;
+        position: fixed; top: 0; left: 0;
+        pointer-events: none;
+        z-index: 99999;
+        transition: transform 0.15s ease;
+        mix-blend-mode: difference;
+      }
+      .cursor-ring {
+        width: 36px; height: 36px;
+        border: 1px solid #7ee8fa60;
+        border-radius: 50%;
+        position: fixed; top: 0; left: 0;
+        pointer-events: none;
+        z-index: 99998;
+        transition: all 0.12s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <div id="root"></div>
+    <script>
+      const cursor = document.getElementById('cursor');
+      const ring = document.getElementById('cursorRing');
+      document.addEventListener('mousemove', e => {
+        cursor.style.transform = `translate(${e.clientX - 6}px, ${e.clientY - 6}px)`;
+        ring.style.transform = `translate(${e.clientX - 18}px, ${e.clientY - 18}px)`;
+      });
+      document.addEventListener('mousedown', () => cursor.style.transform += ' scale(0.6)');
+      document.addEventListener('mouseup',   () => cursor.style.transform = cursor.style.transform.replace(' scale(0.6)', ''));
+    </script>
+  </body>
+</html>
