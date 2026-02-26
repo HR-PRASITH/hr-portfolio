@@ -63,10 +63,10 @@ Answer questions about HR Prasith professionally and helpfully. Keep answers con
           <a href="tel:9448739738" className="contact-link">
             📞 +91 9448739738
           </a>
-          <a href="https://github.com/Hrprasith" target="_blank" rel="noopener noreferrer" className="contact-link">
+          <a href="https://github.com/HR-PRASITH" target="_blank" rel="noopener noreferrer" className="contact-link">
             🐙 github.com/Hrprasith
           </a>
-          <a href="https://linkedin.com/in/HrPrasith" target="_blank" rel="noopener noreferrer" className="contact-link">
+          <a href="https://www.linkedin.com/in/hr-prasith-924223291/" target="_blank" rel="noopener noreferrer" className="contact-link">
             💼 linkedin.com/HrPrasith
           </a>
           <a href="#" className="contact-link">
