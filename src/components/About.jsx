@@ -110,7 +110,7 @@ export default function About() {
           <div className="about-stats">
             {[
               { num: '4+',   label: 'Projects Built'       },
-              { num: '7.76', label: 'CGPA @ CMR'           },
+              { num: '7.74', label: 'CGPA @ CMR'           },
               { num: '2',    label: 'Certifications'        },
               { num: '4',    label: 'Languages Spoken'      },
             ].map((s) => (
