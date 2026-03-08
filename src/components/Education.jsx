@@ -7,7 +7,7 @@ const TIMELINE = [
     date: 'Aug 2023 – Present',
     title: 'B.Tech in AI & Machine Learning',
     sub: 'CMR University, Bangalore',
-    grade: 'GPA: 7.76',
+    grade: 'GPA: 7.74',
     type: 'education',
   },
   {
