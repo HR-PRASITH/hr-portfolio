@@ -94,8 +94,7 @@ export default function About() {
           <h2 className="section-title">Building AI<br />for the Real World</h2>
           <p>
             I'm <strong style={{ color: '#e8f0fe' }}>HR Prasith</strong>, a B.Tech AI & ML student at 
-            CMR University, Bangalore. I believe technology should solve problems that matter — 
-            from detecting breast cancer with ML to building emergency safety devices for women.
+            CMR University, Bangalore. I believe technology should solve problems that matter.
           </p>
           <p>
             I combine machine learning, cloud platforms, and hardware to ship end-to-end products.
