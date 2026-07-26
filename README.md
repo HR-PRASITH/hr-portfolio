@@ -32,25 +32,3 @@ hr-portfolio/
 │       ├── Education.jsx       ← Timeline + languages
 │       └── Contact.jsx         ← Contact links + Claude AI chat widget
 └── package.json
-```
-
-## 🚀 Setup
-
-```bash
-npm install
-npm start
-```
-
-Open → http://localhost:3000
-
-## 🤖 AI Chat (Contact Section)
-
-The AI assistant uses the Anthropic Claude API.
-In production, **proxy through your own backend** to protect your API key.
-
-## 🎨 Customize
-
-- Your info → edit each component directly
-- Colors → `src/styles.css` `:root` variables  
-- Galaxy stars → `GalaxyCanvas.jsx` `count` variable
-- Projects → `Projects.jsx` `PROJECTS` array
