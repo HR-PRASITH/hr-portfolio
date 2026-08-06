@@ -108,9 +108,9 @@ export default function About() {
 
           <div className="about-stats">
             {[
-              { num: '4+',   label: 'Projects Built'       },
+              { num: '5+',   label: 'Projects Built'       },
               { num: '7.88', label: 'CGPA @ CMR'           },
-              { num: '2',    label: 'Certifications'        },
+              { num: '3+',    label: 'Certifications'        },
               { num: '4',    label: 'Languages Spoken'      },
             ].map((s) => (
               <div key={s.label} className="stat-card">
